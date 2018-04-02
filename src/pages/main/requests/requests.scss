@@ -1,0 +1,51 @@
+page-requests {
+  .scroll-content {
+    background-color: color($colors, light-gray);
+  }
+  ion-list {
+    margin-top: 0.5vh;
+
+    ion-list-header {
+      margin-left: 0.5vw;
+      font-size: 1.1rem;
+      border-bottom: solid 0.1vw color($colors, light-gray) !important;
+    }
+
+    ion-item {
+      border-bottom: solid 0.1vh color($colors, light-gray) !important;
+      color: color($colors, dark) !important;
+
+      img {
+        width: 4.5rem !important;
+        height: 4.5rem !important;
+      }
+
+      h2 {
+        font-weight: bolder !important;
+        font-size: 1.1rem !important;
+      }
+
+      p {
+        font-size: 1.2rem !important;
+      }
+
+      button {
+        width: 3.8rem !important;
+        height: 3.8rem !important;
+        border-radius: 0 !important;
+        margin-left: 2vw !important;
+        margin-right: 0 !important;
+        ion-icon {
+          font-size: 2.5rem !important;
+          color: color($colors, light) !important;
+        }
+      }
+    }
+
+    ion-item.selected,
+    ion-item:active {
+      background: color($colors, light);
+      opacity: 0.75;
+    }
+  }
+}
